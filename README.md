@@ -16,4 +16,5 @@ headers = {"Content-Type": "application/json"}
 payload = {"size": 10}
 
 r = requests.get('https://jsonplaceholder.typicode.com/posts', json=payload)
+print(r.text)
 ```
